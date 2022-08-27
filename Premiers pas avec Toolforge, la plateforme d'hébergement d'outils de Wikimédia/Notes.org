@@ -1,0 +1,20 @@
+* Infos
+** Titre : Premiers pas avec Toolforge, la plateforme d'hébergement d'outils de Wikimédia
+** Date et heure : dimanche 20 novembre, 10 h 30
+** Durée : 30 minutes (+ 2 heures en salle 4)
+** Lieu : salle Londres (40 personnes)
+** Description : [[https://meta.wikimedia.org/wiki/WikiConvention_francophone/2022/Programme/Premiers_pas_avec_Toolforge,_la_plateforme_d%27h%C3%A9bergement_d%27outils_de_Wikim%C3%A9dia][meta]]
+** Notes : pad (à venir)
+** Suite : OpenRefine, couteau-suisse de Wikimédia
+* Description
+Wikimedia Toolforge est une plateforme d'hébergement d'outils qui s'appuie sur l'infrastructure Wikimedia Cloud Services.
+Elle permet aux membres de la communauté de rendre disponible leurs outils (sites web, bots, scripts…) au plus grand nombre, en leur épargnant les frais d'hébergement habituellement liés à cette activité, en leur mettant à disposition des ressources spécifiques aux projets Wikimédia (réplicas des bases de données, dumps…) et en leur faisant bénéficier de l'image positive construite par les nombreux autres services hébergés.
+
+Cet atelier vise à accompagner les participants dans leurs premiers pas sur Toolforge :
+
+ - Vous avez un bot à héberger sur Kubernetes mais vous n'avez pas le budget ?
+ - Vous voulez créer un outil en Python mais ne savez pas par où commencer ?
+ - Vous ne comprenez pas la moitié des mots de cette description et vous souhaitez que ça change ?
+
+Cet atelier est pour vous !
+* TODO Plan

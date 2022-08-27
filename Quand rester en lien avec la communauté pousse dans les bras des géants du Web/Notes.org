@@ -1,0 +1,20 @@
+* Infos
+** Titre : Quand rester en lien avec la communauté pousse dans les bras des géants du Web
+** Date et heure : samedi 19 novembre, 9 h 30
+** Durée : toute la journée
+** Lieu : salle 4 (posters)
+** Description : [[Quand rester en lien avec la communauté pousse dans les bras des géants du Web][meta]]
+** Notes : pad (à venir)
+** Suite : N/A
+* Description
+Discord, Facebook, Instagram, Telegram, Twitch, Twitter, Zoom… la communauté, s'est largement approprié ces nombreux outils pratiquement incontournables en 2022.
+Aujourd'hui plus que jamais, ils sont mis en avant sur les pages communautaires comme sur les sites des organisations qui gravitent autour des projets Wikimédia.
+Seulement voila, la plupart de ces outils ne fournissent que peu de garanties à leur public… Respect de la vie privée, interopérabilité, préservation des données, licences libres, non-exposition à la publicité… manquent souvent à l'appel.
+
+Cette présentation éclair vise à mettre en évidence l'omniprésence grandissante des géants du Web dans les interactions au sein de la communauté Wikimédia, ainsi qu'à donner un peu de visibilité à des alternatives plus respectueuses du public.
+* TODO Préparation
+* TODO Plan
+* TODO Exemples de posters
+ - https://www.ipmc.cnrs.fr/~duprat/techcom/poster.htm
+ - https://www.aria.archi.fr/wp-content/uploads/2022/05/Fait-Poster_Studio-IMU_St%C3%A9phanie.jpg
+ - https://www.aria.archi.fr/wp-content/uploads/2022/05/POSTER-LOVO-FINAL.jpg
