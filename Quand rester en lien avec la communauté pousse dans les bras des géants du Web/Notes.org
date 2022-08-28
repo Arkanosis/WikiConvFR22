@@ -3,7 +3,7 @@
 ** Date et heure : samedi 19 novembre, 9 h 30
 ** Durée : toute la journée
 ** Lieu : salle 4 (posters)
-** Description : [[Quand rester en lien avec la communauté pousse dans les bras des géants du Web][meta]]
+** Description : [[https://meta.wikimedia.org/wiki/WikiConvention_francophone/2022/Programme/Quand_rester_en_lien_avec_la_communaut%C3%A9_pousse_dans_les_bras_des_g%C3%A9ants_du_Web][meta]]
 ** Notes : pad (à venir)
 ** Suite : N/A
 * Description
@@ -13,7 +13,58 @@ Seulement voila, la plupart de ces outils ne fournissent que peu de garanties à
 
 Cette présentation éclair vise à mettre en évidence l'omniprésence grandissante des géants du Web dans les interactions au sein de la communauté Wikimédia, ainsi qu'à donner un peu de visibilité à des alternatives plus respectueuses du public.
 * TODO Préparation
+ - Format A1, PDF, portrait
+* DONE Idées
+ - Ou plutôt, aux GFTDTZ (Google, Facebook, Telegram, Discord, Twitter, Zoom)
+ - Captures d'écran de mails, des sites de Wikimedia France, de la Wikimedia Foundation…
+ - Wikimania : https://diff.wikimedia.org/2022/07/20/the-platform-powering-wikimania-2022/
+ - WikiConvention : https://meta.wikimedia.org/wiki/WikiConvention_francophone/2022 (lien vers YouTube pour le lieu précis au 2022-07-22)
+ - WikiFranca : https://meta.wikimedia.org/wiki/WikiFranca/fr (Telegram)
+ - Lien avec les entreprises et les conditions d'utilisation, le patriot act, etc.
+ - Alternatives : IRC, Matrix… MediaWiki…
+* TODO Éléments à faire figurer
+ - Titre
+ - Licence (quid des logos ?)
+ - PU, mail, Matrix, Mastodon, XMPP (s'assurer que Matrix, Mastodon et XMPP sont accessibles le jour J)
+ - QR code pour la version en ligne (laquelle pointe également vers le pad de Wikimédia France pour les discussions)
 * TODO Plan
+** Titre
+** Introduction
+ - Conditions d'utilisation
+ - Patriot Act
+** Exemples
+*** Wikimedia Foundation
+ - https://wikimediafoundation.org/fr/ : Facebook, Twitter, Instagram
+ - Mails : Zoom
+*** Wikimedia Belgique, Canada, Suice, Cameroon, Côte d'Ivoire, France, Guinée, Haïti, Maroc, Congo, Tunisie
+ - https://www.wikimedia.fr/ : Facebook, Twitter, LinkedIn, Instagram, YouTube, Discord
+*** Wikipédia francophone
+ - https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9 / https://fr.wikipedia.org/wiki/Aide:Accueil / https://fr.wikipedia.org/wiki/Aide:Poser_une_question : Discord, IRC
+ - Twitch
+*** Wikidata
+ - https://www.wikidata.org/wiki/Wikidata:Main_Page : Facebook, Quora, Twitter, Telegram, IRC
+*** Wikimedia Commons
+ - Rien nulle part ? :)
+ - https://commons.wikimedia.org/wiki/Commons:Portail_communautaire : IRC, mail
+ - https://commons.wikimedia.org/wiki/Commons:Help_desk / https://commons.wikimedia.org/wiki/Commons:Village_pump : Telegram
+*** WikiFranca
+ - https://meta.wikimedia.org/wiki/WikiFranca/fr : Telegram, Facebook
+*** Sans Pages
+ - https://meta.wikimedia.org/wiki/Les_sans_pagEs : Telegram, Twitter, Facebook
+ - https://fr.wikipedia.org/wiki/Projet:Les_sans_pagEs : Facebook, Twitter, Instagram, YouTube, Telegram, Discord
+*** WikiConvention Francophone
+ - https://meta.wikimedia.org/wiki/WikiConvention_francophone/2022 : Twitter, Telegram
+*** Wikimania
+ - https://diff.wikimedia.org/2022/07/20/the-platform-powering-wikimania-2022/ : PheedLoop
+** Alternatives
+ - MediaWiki
+ - Matrix, XMPP, IRC
+ - ActivityPub (Mastodon, Pleroma…)
+ - Wikimedia Commons, PixelFed
+ - Wikimedia Commons, PeerTube
+** Conclusions
+ - Noter que contrairement à ailleurs, il y a toujours (?) au moins le mail en alternative
+** Contact + licence + lien
 * TODO Exemples de posters
  - https://www.ipmc.cnrs.fr/~duprat/techcom/poster.htm
  - https://www.aria.archi.fr/wp-content/uploads/2022/05/Fait-Poster_Studio-IMU_St%C3%A9phanie.jpg
