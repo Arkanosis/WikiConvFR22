@@ -12,7 +12,7 @@ Aujourd'hui plus que jamais, ils sont mis en avant sur les pages communautaires 
 Seulement voila, la plupart de ces outils ne fournissent que peu de garanties à leur public… Respect de la vie privée, interopérabilité, préservation des données, licences libres, non-exposition à la publicité… manquent souvent à l'appel.
 
 Cette présentation éclair vise à mettre en évidence l'omniprésence grandissante des géants du Web dans les interactions au sein de la communauté Wikimédia, ainsi qu'à donner un peu de visibilité à des alternatives plus respectueuses du public.
-* TODO Préparation
+* DONE Préparation
  - Format A1, PDF, portrait
 * DONE Idées
  - Ou plutôt, aux GFTDTZ (Google, Facebook, Telegram, Discord, Twitter, Zoom)
@@ -30,8 +30,13 @@ Cette présentation éclair vise à mettre en évidence l'omniprésence grandiss
 * TODO Plan
 ** Titre
 ** Introduction
+ - Respect des données personnelles / tracking
  - Conditions d'utilisation
  - Patriot Act
+La communauté, s'est largement approprié ces nombreux outils pratiquement incontournables en 2022.
+ils sont mis en avant sur les pages communautaires comme sur les sites des organisations qui gravitent autour des projets Wikimédia.
+la plupart de ces outils ne fournissent que peu de garanties à leur public… Respect de la vie privée, interopérabilité, préservation des données, licences libres, non-exposition à la publicité… manquent souvent à l'appel.
+ l'omniprésence grandissante des géants du Web dans les interactions au sein de la communauté Wikimédia, ainsi qu'à donner un peu de visibilité à des alternatives plus respectueuses du public.
 ** Exemples
 *** Wikimedia Foundation
  - https://wikimediafoundation.org/fr/ : Facebook, Twitter, Instagram
@@ -43,6 +48,7 @@ Cette présentation éclair vise à mettre en évidence l'omniprésence grandiss
  - Twitch
 *** Wikidata
  - https://www.wikidata.org/wiki/Wikidata:Main_Page : Facebook, Quora, Twitter, Telegram, IRC
+ - Mails community meetings : Google Meet
 *** Wikimedia Commons
  - Rien nulle part ? :)
  - https://commons.wikimedia.org/wiki/Commons:Portail_communautaire : IRC, mail
