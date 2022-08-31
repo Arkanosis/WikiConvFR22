@@ -27,17 +27,18 @@ Cette présentation éclair vise à mettre en évidence l'omniprésence grandiss
  - [X] Licence (quid des logos ?)
  - [X] PU, mail, Matrix, Mastodon, XMPP (s'assurer que Matrix, Mastodon et XMPP sont accessibles le jour J)
  - [X] QR code pour la version en ligne (laquelle pointe également vers le pad de Wikimédia France pour les discussions)
-* TODO Plan
-** Titre
-** Introduction
+* TODO Plan (500~600 mots) [2/9]
+** DONE Titre
+** TODO Contexte
+Comme le reste de la population, la communauté qui gravite autour des projets Wikimedia s'est largement approprié les différents outils de communication à sa disposition.
+Des logiciels de chat à ceux de visioconférence, des plateformes de micro-blogging aux réseaux sociaux, des sites de partage d'image et de vidéo à ceux de streaming, tout est exploité pour faciliter les interactions entre les membres de la communauté et toucher un plus large public, là où il est déjà présent.
+FIXME ⇒ ceci a pour conséquence leur mise en avant sur les pages communautaires comme sur les sites des organisations qui gravitent autour des projets Wikimédia
+** TODO Problèmes
  - Respect des données personnelles / tracking
- - Conditions d'utilisation
+ - Conditions d'utilisation variables d'un outil à l'autre, dans le temps…
  - Patriot Act
-La communauté, s'est largement approprié ces nombreux outils pratiquement incontournables en 2022.
-ils sont mis en avant sur les pages communautaires comme sur les sites des organisations qui gravitent autour des projets Wikimédia.
-la plupart de ces outils ne fournissent que peu de garanties à leur public… Respect de la vie privée, interopérabilité, préservation des données, licences libres, non-exposition à la publicité… manquent souvent à l'appel.
- l'omniprésence grandissante des géants du Web dans les interactions au sein de la communauté Wikimédia, ainsi qu'à donner un peu de visibilité à des alternatives plus respectueuses du public.
-** Exemples
+ - la plupart de ces outils ne fournissent que peu de garanties à leur public… Respect de la vie privée, interopérabilité, préservation des données, licences libres, non-exposition à la publicité… manquent souvent à l'appel.
+** TODO Exemples
 *** Wikimedia Foundation
  - https://wikimediafoundation.org/fr/ : Facebook, Twitter, Instagram
  - Mails : Zoom
@@ -62,16 +63,24 @@ la plupart de ces outils ne fournissent que peu de garanties à leur public… R
  - https://meta.wikimedia.org/wiki/WikiConvention_francophone/2022 : Twitter, Telegram
 *** Wikimania
  - https://diff.wikimedia.org/2022/07/20/the-platform-powering-wikimania-2022/ : PheedLoop
-** Alternatives
+** TODO Il existe des alternatives plus respectueuses du public.
  - MediaWiki
+ - RSS
  - Matrix, XMPP, IRC
  - ActivityPub (Mastodon, Pleroma…)
  - Wikimedia Commons, PixelFed
  - Wikimedia Commons, PeerTube
-** Conclusions
- - Noter que contrairement à ailleurs, il y a toujours (?) au moins le mail en alternative
-** Contact + licence + lien
-* TODO Exemples de posters
+** TODO Difficultées
+ - Friction, manque de maturité des alternatives
+ - Plus encore, l'Effet de réseau
+ - Dominer n'est pas important, mais le risque de s'isoler est réel (cf. IRC)
+** TODO Conclusion, propositions solution
+ - Promouvoir les alternatives avec les solutions non respectueuses
+ - Informer sur les implications (approche F-Droid)
+** TODO Voir aussi
+ - Phabricator Matrix
+** DONE Contact + licence + lien
+* Exemples de posters
  - https://www.ipmc.cnrs.fr/~duprat/techcom/poster.htm
  - https://www.aria.archi.fr/wp-content/uploads/2022/05/Fait-Poster_Studio-IMU_St%C3%A9phanie.jpg
  - https://www.aria.archi.fr/wp-content/uploads/2022/05/POSTER-LOVO-FINAL.jpg
