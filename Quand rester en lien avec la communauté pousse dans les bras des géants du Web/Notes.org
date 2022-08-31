@@ -70,8 +70,8 @@ Assez naturellement, ces outils se retrouvent mis en avant sur les pages communa
  - https://diff.wikimedia.org/2022/07/20/the-platform-powering-wikimania-2022/ : PheedLoop
 ** TODO Il existe des alternatives plus respectueuses du public.
  - Certaines sont déjà largement utilisés, à commencer par MediaWiki qui reste l'outil majoritairement utilisé pour communiquer au sein de la communauté ou l'email qui reste mis en avant à peu près partout.
- - RSS et Atom sont également omniprésents, tant sur les wikis que sur les sites des organisation, et constituent une alternative à Facebook, Twitter, etc. pour les besoins de suivis sans interaction.
- - IRC est utilisé depuis longtemps et peut constituer une alternative à Discord, Telegram et WhatsApp, mais ses fonctionnalités sont plus limitées et le service reste centralisé et fourni par une entité tierce (Libera.Chat), même si celle-ci partage des valeurs avec la communauté Wikimedia.
+ - Même s'ils ne sont pas beaucoup mis en avant, RSS et Atom sont également omniprésents, tant sur les wikis que sur les sites des organisation, et constituent une alternative à Facebook, Twitter, etc. pour les besoins de suivis sans interaction.
+ - Mis en avant par exemple sur la Wikipédia francophone, Wikidata et Wikimedia Commons, IRC est utilisé depuis longtemps et peut constituer une alternative à Discord, Telegram et WhatsApp. Ses fonctionnalités sont toutefois plus limitées et le service reste centralisé et fourni par une entité tierce (Libera.Chat), même si celle-ci partage des valeurs avec la communauté Wikimedia.
  - D'autres pourraient être proposées ou généralisées, comme Matrix ou XMPP en alternative à Discord, Telegram, WhatsApp, Zoom et Meet, ou ActivityPub en alternative à Facebook et Twitter (avec Mastodon, Pleroma…), Instagram (avec PixelFed), YouTube et Twitch (avec PeerTube…).
 ** TODO Difficultés
  - Un service n'a malheureusement pas toujours d'alternative, ou les alternatives existantes peuvent lui être inférieures selon des critères non négotiables (performance, stabilité…).
