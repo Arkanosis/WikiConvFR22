@@ -27,13 +27,13 @@ Cette présentation éclair vise à mettre en évidence l'omniprésence grandiss
  - [X] Licence (quid des logos ?)
  - [X] PU, mail, Matrix, Mastodon, XMPP (s'assurer que Matrix, Mastodon et XMPP sont accessibles le jour J)
  - [X] QR code pour la version en ligne (laquelle pointe également vers le pad de Wikimédia France pour les discussions)
-* TODO Plan (500~600 mots) [4/9]
+* DONE Plan (500~600 mots) [9/9]
 ** DONE Titre
 ** DONE Contexte
 Comme le reste de la population, la communauté qui gravite autour des projets Wikimedia s'est largement approprié les différents outils de communication à sa disposition.
 Des logiciels de chat à ceux de visioconférence, des plateformes de micro-blogging aux réseaux sociaux, des sites de partage d'image et de vidéo à ceux de streaming, tout est exploité pour faciliter les interactions entre les membres de la communauté et toucher un plus large public, là où il est déjà présent.
 Assez naturellement, ces outils se retrouvent mis en avant sur les pages communautaires des différents projets, ainsi que sur les sites des différentes organisations qui gravitent autour de ceux-ci et les soutiennent.
-** STRT Problèmes [5/6]
+** DONE Problèmes [6/6]
  - [X] Respect des données personnelles / tracking
  - [X] Conditions d'utilisation variables d'un outil à l'autre, dans le temps…
  - [X] Patriot Act
@@ -42,7 +42,7 @@ Assez naturellement, ces outils se retrouvent mis en avant sur les pages communa
    - Zoom par la fondation
    - Meet par Wikidata
    - PheedLoop par Wikimania
- - [ ] Dans la majorité des cas, les outils mis en avant sont des possibilités supplémentaires qui s'offrent aux usagers qui le souhaitent, sans impact pour ceux qui ne souhaitent pas les utiliser. Dans certains cas cependant, ce sont les seules options disponibles : les discussions avec la fondation sont organisées sur Zoom exclusivement, tandis que Wikidata s'appuie uniquement sur Meet (Alphabet) et que Wikimania 2022 se déroulait sur PheedLoop et Meet.
+ - [X] Dans la majorité des cas, les outils mis en avant sont des possibilités supplémentaires qui s'offrent aux usagers qui le souhaitent, sans impact pour ceux qui ne souhaitent pas les utiliser. Dans certains cas cependant, ce sont les seules options disponibles : les discussions avec la fondation sont organisées sur Zoom exclusivement, tandis que Wikidata s'appuie uniquement sur Meet (Alphabet) et que Wikimania 2022 se déroulait sur PheedLoop et Meet.
 ** DONE Exemples
 *** Wikimedia Foundation
  - https://wikimediafoundation.org/fr/ : Facebook, Twitter, Instagram
@@ -68,21 +68,38 @@ Assez naturellement, ces outils se retrouvent mis en avant sur les pages communa
  - https://meta.wikimedia.org/wiki/WikiConvention_francophone/2022 : Twitter, Telegram
 *** Wikimania
  - https://diff.wikimedia.org/2022/07/20/the-platform-powering-wikimania-2022/ : PheedLoop
-** TODO Il existe des alternatives plus respectueuses du public.
+** DONE Il existe des alternatives plus respectueuses du public.
  - Certaines sont déjà largement utilisés, à commencer par MediaWiki qui reste l'outil majoritairement utilisé pour communiquer au sein de la communauté ou l'email qui reste mis en avant à peu près partout.
+
+
+ - Outre MediaWiki, l'email et RSS, déjà omniprésents,
  - Même s'ils ne sont pas beaucoup mis en avant, RSS et Atom sont également omniprésents, tant sur les wikis que sur les sites des organisation, et constituent une alternative à Facebook, Twitter, etc. pour les besoins de suivis sans interaction.
+
  - Mis en avant par exemple sur la Wikipédia francophone, Wikidata et Wikimedia Commons, IRC est utilisé depuis longtemps et peut constituer une alternative à Discord, Telegram et WhatsApp. Ses fonctionnalités sont toutefois plus limitées et le service reste centralisé et fourni par une entité tierce (Libera.Chat), même si celle-ci partage des valeurs avec la communauté Wikimedia.
  - D'autres pourraient être proposées ou généralisées, comme Matrix ou XMPP en alternative à Discord, Telegram, WhatsApp, Zoom et Meet, ou ActivityPub en alternative à Facebook et Twitter (avec Mastodon, Pleroma…), Instagram (avec PixelFed), YouTube et Twitch (avec PeerTube…).
-** TODO Difficultés
+
+
+
+** DONE Difficultés
  - Un service n'a malheureusement pas toujours d'alternative, ou les alternatives existantes peuvent lui être inférieures selon des critères non négotiables (performance, stabilité…).
  - Plus que dans ses qualités intrinsèques ou son niveau de maturité, l'intérêt d'un outil de communication réside dans le public qu'il permet d'atteindre. Il en résulte ce qu'on appelle l'« effet de réseau » : les outils les plus utiles sont ceux qui ont déjà le plus d'utilisateurs.
  - Pour cette raison, tenter de substituer aux outils actuels des alternatives telles que celles évoquées aurait au mieux peu d'effet sur les usages établis et serait au pire contre-productif en privant la communauté de l'accès des réseaux existants.
  - La majorité du public attendre des solutions prêtes à l'usage ; la technologie seule ne suffit pas.
-** TODO Conclusion, propositions solution
+
+Outre un niveau de maturité parfois moindre, les alternatives souffrent de l'« effet de réseau », phénomène qui donne une utilité plus grande aux outils de communication les plus utilisés, indépendamment de leur qualités intrinsèques.
+Pour cette raison, tenter de les substituer aux outils actuels aurait au mieux peu d'effet sur les usages établis et au pire un effet négative en isolant la communauté des réseaux existants.
+
+
+** DONE Conclusion, propositions solution
  - Pour permettre aux membres de la communauté de communiquer entre eux et avec l'extérieur, le meilleur levier à court terme semble de promouvoir les alternatives sans s'isoler des réseaux existants et d'informer sur les implications de l'utilisation des différents outils proposés (à la matière d'un nutri-score ou d'un indice de réparabilité).
  - À moyen terme, proposer des solutions prêtes à l'usage, soumises au mêmes conditions d'utilisation et offrant les mêmes garanties que le reste des services proposées par la Wikimedia Foundation.
  - L'évolution de la législation est susceptible d'aider, notamment au niveau de l'Union Européenne où la DMA (législation sur les marchés numériques) va imposer l'intéropérabilité aux gros acteurs dès 2023.
-** TODO Voir aussi
+
+
+La mise en avant d'un outil peu compatible avec les principes des projets Wikimedia devrait s'accompagner d'alternatives et d'informations sur les implications de l'utilisation d'un outil plutôt que d'un autre (à la matière d'un nutri-score ou d'un indice de réparabilité, comme le fait par exemple le site tosdr.org).
+Au niveau de l'Union Européenne, l'évolution de la législation est susceptible d'apporter une solution au problème d'effet de réseau, grâce à la DMA (législation sur les marchés numériques) qui va imposer l'intéropérabilité aux gros acteurs dès 2023.
+
+** DONE Voir aussi
  - https://phabricator.wikimedia.org/T186061 (Evaluate Matrix)
  - DMA (législation sur les marchés numériques)
  - tosdr.org (Terms of Service, Didn't Read)
