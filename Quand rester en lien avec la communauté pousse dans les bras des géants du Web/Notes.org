@@ -32,7 +32,7 @@ Cette présentation éclair vise à mettre en évidence l'omniprésence grandiss
 ** TODO Contexte
 Comme le reste de la population, la communauté qui gravite autour des projets Wikimedia s'est largement approprié les différents outils de communication à sa disposition.
 Des logiciels de chat à ceux de visioconférence, des plateformes de micro-blogging aux réseaux sociaux, des sites de partage d'image et de vidéo à ceux de streaming, tout est exploité pour faciliter les interactions entre les membres de la communauté et toucher un plus large public, là où il est déjà présent.
-FIXME ⇒ ceci a pour conséquence leur mise en avant sur les pages communautaires comme sur les sites des organisations qui gravitent autour des projets Wikimédia
+Assez naturellement, ces outils se retrouvent mis en avant sur les pages communautaires des différents projets, ainsi que sur les sites des différentes organisations qui gravitent autour de ceux-ci et les soutiennent.
 ** TODO Problèmes
  - Respect des données personnelles / tracking
  - Conditions d'utilisation variables d'un outil à l'autre, dans le temps…
@@ -64,6 +64,7 @@ FIXME ⇒ ceci a pour conséquence leur mise en avant sur les pages communautair
 *** Wikimania
  - https://diff.wikimedia.org/2022/07/20/the-platform-powering-wikimania-2022/ : PheedLoop
 ** TODO Il existe des alternatives plus respectueuses du public.
+ - Mail (Wikimedia Foundation)
  - MediaWiki
  - RSS
  - Matrix, XMPP, IRC
@@ -77,8 +78,10 @@ FIXME ⇒ ceci a pour conséquence leur mise en avant sur les pages communautair
 ** TODO Conclusion, propositions solution
  - Promouvoir les alternatives avec les solutions non respectueuses
  - Informer sur les implications (approche F-Droid)
+ - Évolution de la législation
 ** TODO Voir aussi
  - Phabricator Matrix
+ - Législation chats
 ** DONE Contact + licence + lien
 * Exemples de posters
  - https://www.ipmc.cnrs.fr/~duprat/techcom/poster.htm
