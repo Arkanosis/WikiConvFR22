@@ -27,18 +27,18 @@ Cette présentation éclair vise à mettre en évidence l'omniprésence grandiss
  - [X] Licence (quid des logos ?)
  - [X] PU, mail, Matrix, Mastodon, XMPP (s'assurer que Matrix, Mastodon et XMPP sont accessibles le jour J)
  - [X] QR code pour la version en ligne (laquelle pointe également vers le pad de Wikimédia France pour les discussions)
-* TODO Plan (500~600 mots) [2/9]
+* TODO Plan (500~600 mots) [5/9]
 ** DONE Titre
-** TODO Contexte
+** DONE Contexte
 Comme le reste de la population, la communauté qui gravite autour des projets Wikimedia s'est largement approprié les différents outils de communication à sa disposition.
 Des logiciels de chat à ceux de visioconférence, des plateformes de micro-blogging aux réseaux sociaux, des sites de partage d'image et de vidéo à ceux de streaming, tout est exploité pour faciliter les interactions entre les membres de la communauté et toucher un plus large public, là où il est déjà présent.
 Assez naturellement, ces outils se retrouvent mis en avant sur les pages communautaires des différents projets, ainsi que sur les sites des différentes organisations qui gravitent autour de ceux-ci et les soutiennent.
-** TODO Problèmes
+** DONE Problèmes
  - Respect des données personnelles / tracking
  - Conditions d'utilisation variables d'un outil à l'autre, dans le temps…
  - Patriot Act
  - la plupart de ces outils ne fournissent que peu de garanties à leur public… Respect de la vie privée, interopérabilité, préservation des données, licences libres, non-exposition à la publicité… manquent souvent à l'appel.
-** TODO Exemples
+** DONE Exemples
 *** Wikimedia Foundation
  - https://wikimediafoundation.org/fr/ : Facebook, Twitter, Instagram
  - Mails : Zoom
@@ -73,6 +73,10 @@ Assez naturellement, ces outils se retrouvent mis en avant sur les pages communa
  - Wikimedia Commons, PeerTube
 ** TODO Difficultées
  - Friction, manque de maturité des alternatives
+ - Imposé
+   - Zoom par la fondation
+   - Meet par Wikidata
+   - PheedLoop par Wikimania
  - Plus encore, l'Effet de réseau
  - Dominer n'est pas important, mais le risque de s'isoler est réel (cf. IRC)
 ** TODO Conclusion, propositions solution
