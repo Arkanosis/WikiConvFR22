@@ -18,3 +18,63 @@ Cet atelier vise à accompagner les participants dans leurs premiers pas sur Too
 
 Cet atelier est pour vous !
 * TODO Plan
+** Contexte
+ - Vous avez écrit un bot (ou vous utilisez un bot comme pywikibot) qui fait des modifications à votre place sur les wikis
+ - Vous avez écrit un site web que vous souhaitez partager à la communauté (statique, en HTML ; ou dynamique, en Python, PHP…)
+** Notions
+*** Internet
+ - Ordinateurs interconnectés via un réseau.
+ - Inter-network
+*** Serveur
+ - Ordinateur qui fournit un service.
+ - Exemple : serveur qui sert Wikipédia.
+*** Hébergeur
+ - Personne, entreprise ou organisation chez qui est un serveur (en général le propriétaire).
+ - Exemple : la Wikimedia Foundation qui héberge Wikipédia.
+*** Cloud
+ - Le cloud, c'est l'ordinateur de quelqu'un d'autre.
+ - Le cloud, c'est (avant tout) l'ordinateur de quelqu'un d'autre.
+ - Géré par l'hébergeur pour proposer un service qui ne nécessite pas d'acheter des machines physiques (différentes approches : machines virtuelles, conteneurs…).
+ - Différents modèles
+   - IaaS : l'hébergeur fournit quelque chose qui ressemble à un ordinateur vide
+   - PaaS : l'hébergeur fournit un système sur lequel vous pouvez installer vos logiciels sans vous préoccuper d'infrastructure
+   - SaaS : l'hébergeur fournit un logiciel prêt à l'usage (exemple : Gmail, Facebook, Google Drive, Netflix, Spotify… mais aussi Wikipédia, Wiktionnaire, Phabricator…)
+** Wikimedia Cloud Services
+ - Wikimedia Cloud VPS (IaaS)
+ - Wikimedia Toolforge (PaaS)
+** Toolhub
+** Deux types d'outils
+ - Service web
+ - Tout le reste
+   - Traitement ponctuel
+   - Traitement régulier
+   - Traitement continu
+** Restrictions
+ - Pour le bénéfice du mouvement Wikimedia
+ - Right to fork : licence libre pour le code et les données
+** Concepts
+*** Compte développeur
+ - WikiTech
+ - Toolforge
+ - Phabricator, Gerrit & GitLab
+*** Compte outil
+ - Un compte par outil
+ - Un ou plusieurs mainteneurs (comptes développeur)
+*** Faire un schéma avec des comptes développeurs et des comptes outil
+ - Arkanosis (artlist, socksfinder)
+ - Assassas77 (abricot)
+ - Nattes à chat
+ - capitainAfrika
+ - MathisB (mathis-bot)
+** Comment
+*** Créer un compte développeur
+ - Créer le compte
+ - Le faire ajouter à toolforge (nécessite une validation ⇒ IRC ?)
+*** Créer un compte outil
+ - Créer le compte
+ - Ajouter des fichiers
+ - Lancer un service web
+ - Lancer un job
+*** Diffuser son outil
+ - Ajouter des infos sur https://toolsadmin.wikimedia.org/
+ - Compléter l'entrée créée automatiquement sur Toolhub
