@@ -113,15 +113,18 @@ Cet atelier est pour vous !
  - Créer le compte
  - Ajouter des fichiers
  - Lancer un service web
+ - Précisions web : PHP, Python, fichier de conf…
  - Lancer un job
+ - Précisions jobs : image, cron, fichier de conf…
+ - Ressources Wikimedia (dumps, base de données…)
 **** DONE Publicité (diffuser son outil)
  - Ajouter des infos sur https://toolsadmin.wikimedia.org/
  - Compléter l'entrée créée automatiquement sur Toolhub
 ** DONE Transition
  - Laisser la parole à Mounir pour la petite Wiki en darija marocaine
-* TODO Préparation
-** TODO Uploader sur arkanosis.fr
+* TODO Préparation [5/8]
+** DONE Countdown sur marvin
+** DONE Matrix / IRC sur marvin pour contacter Lucas
 ** TODO Tester sur marvin, avec le pointeur laser et la sortie HDMI
-** TODO Countdown sur marvin
 ** TODO Scénario complet sur marvin
-** TODO Matrix / IRC sur marvin pour contacter Lucas
+** TODO Uploader sur arkanosis.fr

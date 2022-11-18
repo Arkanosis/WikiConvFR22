@@ -348,9 +348,9 @@
 						<small style="font-size: 40%"><del>©</del> Anonyme, DP</small>
 					</p>
 					<ul>
-						<li class="fragment"><code>ssh-keygen -t ed25519</code></li>
+						<li class="fragment"><pre><code class="bash">ssh-keygen -t ed25519</code></pre></li>
 						<li class="fragment"><a href="https://wikitech.wikimedia.org/wiki/Special:Preferences#mw-prefsection-openstack">[[:wikitech:Special:Preferences#mw-prefsection-openstack]]</a></li>
-						<li class="fragment"><code>ssh $MON_COMPTE@login.toolforge.org</code></li>
+						<li class="fragment"><pre><code class="bash">ssh $MON_COMPTE@login.toolforge.org</code></pre></li>
 					</ul>
 					<p>
 						<small style="font-size: 50%" class="caption">© <a href="https://fr.wikipedia.org/wiki/User:Arkanosis"><span style="color:gray">User:</span>Arkanosis</a> — CC-BY 4.0 — WikiConvention francophone 2022</small>
@@ -365,7 +365,7 @@
 					</p>
 					<ul>
 						<li class="fragment">Création : <a href="https://toolsadmin.wikimedia.org/">toolsadmin.wikimedia.org</a></li>
-						<li class="fragment"><code>become $MON_OUTIL</code></li>
+						<li class="fragment"><pre><code class="bash">become $MON_OUTIL</code></pre></li>
 					</ul>
 					<p>
 						<small style="font-size: 50%" class="caption">© <a href="https://fr.wikipedia.org/wiki/User:Arkanosis"><span style="color:gray">User:</span>Arkanosis</a> — CC-BY 4.0 — WikiConvention francophone 2022</small>
@@ -379,10 +379,37 @@
 						<small style="font-size: 40%">© Everaldo Coelho, Ch.Andrew, Notwist, Carport, <a href="https://web.archive.org/web/20101122171611/http://everaldo.com/crystal/?action=license">LGPL</a></small>
 					</p>
 					<ul>
-						<li class="fragment"><code>mkdir public_html</code></li>
-						<li class="fragment"><code>echo 'Hello world!' > public_html/index.htm</code></li>
-						<li class="fragment"><code>webservice start</code></li>
+						<li class="fragment"><pre><code class="bash">mkdir public_html</code></pre></li>
+						<li class="fragment"><pre><code class="bash">echo 'Hello world!' > public_html/index.htm</code></pre></li>
+						<li class="fragment"><pre><code class="bash">webservice start</code></pre></li>
 						<li class="fragment">Test : <a href="https://artlist.toolforge.org/">$MON_OUTIL.toolforge.org</a></li>
+					</ul>
+					<p>
+						<small style="font-size: 50%" class="caption">© <a href="https://fr.wikipedia.org/wiki/User:Arkanosis"><span style="color:gray">User:</span>Arkanosis</a> — CC-BY 4.0 — WikiConvention francophone 2022</small>
+					</p>
+				</section>
+				<section data-transition="none">
+					<h2>Service web</h2>
+					<p>
+						<a href="https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_linneighborhood.svg"><img src="images/Crystal_Clear_app_linneighborhood.svg" style="height: 200px; background-color:white;"></a>
+						<br>
+						<small style="font-size: 40%">© Everaldo Coelho, Ch.Andrew, Notwist, Carport, <a href="https://web.archive.org/web/20101122171611/http://everaldo.com/crystal/?action=license">LGPL</a></small>
+					</p>
+					<div>
+						<pre style="width: 400px"><code class="yaml">
+backend: kubernetes
+cpu: 500m
+mem: 200Mi
+type: ruby25
+extra_args:
+ - /data/project/mon_outil
+ - argument1
+ - argument2
+						</code></pre>
+						<small style="font-size: 40%"><code>service.template</code> (YAML)</small>
+					</div>
+					<ul>
+						<li class="fragment"><pre><code class="bash">webservice start</code></pre></li>
 					</ul>
 					<p>
 						<small style="font-size: 50%" class="caption">© <a href="https://fr.wikipedia.org/wiki/User:Arkanosis"><span style="color:gray">User:</span>Arkanosis</a> — CC-BY 4.0 — WikiConvention francophone 2022</small>
@@ -396,8 +423,53 @@
 						<small style="font-size: 40%"><del>©</del> Howard R. Hollem, DP</small>
 					</p>
 					<ul>
-						<li class="fragment"><code>toolforge-jobs run $MON_JOB --command $MA_COMMANDE --image tf-bullseye-std</code></li>
+						<li class="fragment"><pre><code class="bash">toolforge-jobs run $MON_JOB --command $MA_COMMANDE --image tf-bullseye-std</code></pre></li>
+						<li class="fragment"><pre><code class="bash">toolforge-jobs list --long</code></pre></li>
 						<li class="fragment"><a href="https://k8s-status.toolforge.org/namespaces/tool-socksfinder/">k8s-status.toolforge.org/namespaces/tool-$MON_OUTIL/</a></li>
+					</ul>
+					<p>
+						<small style="font-size: 50%" class="caption">© <a href="https://fr.wikipedia.org/wiki/User:Arkanosis"><span style="color:gray">User:</span>Arkanosis</a> — CC-BY 4.0 — WikiConvention francophone 2022</small>
+					</p>
+				</section>
+				<section data-transition="none">
+					<h2>Job</h2>
+					<p>
+						<a href="https://commons.wikimedia.org/wiki/File:WomanFactory1940s.jpg"><img src="images/WomanFactory1940s.jpg" style="height: 200px; background-color:white;"></a>
+						<br>
+						<small style="font-size: 40%"><del>©</del> Howard R. Hollem, DP</small>
+					</p>
+					<div>
+						<pre><code class="yaml">
+- name: mon_job
+  mem: 1Gi
+  command: >-
+    dump=$(date '+%Y%m%d' -d 'two days ago') ;
+    gunzip -c /public/dumps/public/frwiki/${dump}/frwiki-${dump}-stub-meta-history.xml.gz |
+      wc -l > nombre_de_lignes_dans_le_dump_du_${dump}.txt
+  image: tf-bullseye-std
+  schedule: "0 0 3,22 * *"
+  emails: all
+						</code></pre>
+						<small style="font-size: 40%"><code>jobs.yaml</code> (YAML)</small>
+					</div>
+					<ul>
+						<li class="fragment"><pre><code class="bash">toolforge-jobs load jobs.yaml</code></pre></li>
+					</ul>
+					<p>
+						<small style="font-size: 50%" class="caption">© <a href="https://fr.wikipedia.org/wiki/User:Arkanosis"><span style="color:gray">User:</span>Arkanosis</a> — CC-BY 4.0 — WikiConvention francophone 2022</small>
+					</p>
+				</section>
+				<section>
+					<h2>Ressources Wikimédia</h2>
+					<p>
+						<a href="https://commons.wikimedia.org/wiki/File:Wikimedia_logo_family_complete-2022.svg"><img src="images/Wikimedia_logo_family_complete-2022.svg" style="height: 300px; background-color:white;"></a>
+						<br>
+						<small style="font-size: 40%">© PiRSquared17, Rillke, Jelican9, Otourly, et al., CC-BY-SA 3.0</small>
+					</p>
+					<ul>
+						<li class="fragment">Dumps dans <pre><code class="bash">/public/dumps/public</code></pre></li>
+						<li class="fragment">Réplicas de base de données avec <pre><code class="bash">sql $MON_WIKI
+sql frwiki # par exemple</code></pre></li>
 					</ul>
 					<p>
 						<small style="font-size: 50%" class="caption">© <a href="https://fr.wikipedia.org/wiki/User:Arkanosis"><span style="color:gray">User:</span>Arkanosis</a> — CC-BY 4.0 — WikiConvention francophone 2022</small>
