@@ -1,10 +1,10 @@
 * Infos
 ** Titre : Premiers pas avec Toolforge, la plateforme d'hébergement d'outils de Wikimédia
 ** Date et heure : dimanche 20 novembre, 10 h 30
-** Durée : 30 minutes (+ 2 heures en salle 4)
-** Lieu : salle Londres (40 personnes)
+** Durée : 1 heure
+** Lieu : salle Boston (30 personnes)
 ** Description : [[https://meta.wikimedia.org/wiki/WikiConvention_francophone/2022/Programme/Premiers_pas_avec_Toolforge,_la_plateforme_d%27h%C3%A9bergement_d%27outils_de_Wikim%C3%A9dia][meta]]
-** Notes : pad (à venir)
+** Notes : [[https://notes.wikimedia.fr/p/WikiConvFR22_toolforge][pad]]
 ** Suite : OpenRefine, couteau-suisse de Wikimédia
 * Description
 Wikimedia Toolforge est une plateforme d'hébergement d'outils qui s'appuie sur l'infrastructure Wikimedia Cloud Services.
@@ -28,71 +28,94 @@ Cet atelier est pour vous !
  - Créer un compte Wikitech : https://toolsadmin.wikimedia.org/register/
  - Demander un accès à Toolforge : https://toolsadmin.wikimedia.org/tools/membership/apply
  - Associer une clef SSH à son compte : https://toolsadmin.wikimedia.org/profile/settings/ssh-keys
-* TODO Plan
-** Contexte
- - Vous avez écrit un bot (ou vous utilisez un bot comme pywikibot) qui fait des modifications à votre place sur les wikis
- - Vous avez écrit un site web que vous souhaitez partager à la communauté (statique, en HTML ; ou dynamique, en Python, PHP…)
-** Notions
-*** Internet
+* TODO Plan [4/7]
+** DONE Introduction
+ - Pour celles et ceux que je n'ai pas déjà eu la chance de croiser, je suis Arkanosis sur les projets Wikimédia et sur internet en général
+ - Pour les autres, ça fait plaisir de vous retrouver trois ans après la dernière WikiConvention en présentiel
+ - On dispose à peu près d'une heure, donc on'aura pas le temps de faire le tour du sujet, n'hésitez pas à venir discuter avec moi après la présentation
+** DONE Public visé
+ - Vous avez un bot (fait maison, pywikibot…) qui fait des modifications à votre place sur les wikis
+ - Vous souhaitez partager un site web avec la communauté (statique, en HTML ; ou dynamique, en Python, PHP…)
+ - Vous voulez juste savoir de quoi on parle
+** DONE Toolhub
+ - Annuaire pas restreint à Toolforge
+ - XTools
+ - locator-tool
+ - Listeria bot
+ - IABot Internet Archive
+** TODO Notions [0/4]
+*** TODO Internet
  - Ordinateurs interconnectés via un réseau.
  - Inter-network
-*** Serveur
+*** TODO Serveur
  - Ordinateur qui fournit un service.
  - Exemple : serveur qui sert Wikipédia.
-*** Hébergeur
+ - Par opposition à client
+*** TODO Hébergeur
  - Personne, entreprise ou organisation chez qui est un serveur (en général le propriétaire).
  - Exemple : la Wikimedia Foundation qui héberge Wikipédia.
-*** Cloud
+ - On peut acheter ou louer un serveur chez un hébergeur.
+*** TODO Cloud
  - Le cloud, c'est l'ordinateur de quelqu'un d'autre.
- - Le cloud, c'est (avant tout) l'ordinateur de quelqu'un d'autre.
- - Géré par l'hébergeur pour proposer un service qui ne nécessite pas d'acheter des machines physiques (différentes approches : machines virtuelles, conteneurs…).
+ - Le cloud, c'est (très souvent) l'ordinateur de quelqu'un d'autre.
+ - Le cloud, c'est (très souvent) (avant tout) l'ordinateur de quelqu'un d'autre.
+ - Géré par l'hébergeur pour s'abstraire des préoccupations matérielles / physiques (remplacement de matériel défectueux, bon refroidissement des machines, électricité…).
+ - Ça reste du physique en dessous, cf. incendie OVH à Strasbourg
  - Différents modèles
-   - IaaS : l'hébergeur fournit quelque chose qui ressemble à un ordinateur vide
-   - PaaS : l'hébergeur fournit un système sur lequel vous pouvez installer vos logiciels sans vous préoccuper d'infrastructure
    - SaaS : l'hébergeur fournit un logiciel prêt à l'usage (exemple : Gmail, Facebook, Google Drive, Netflix, Spotify… mais aussi Wikipédia, Wiktionnaire, Phabricator…)
+   - IaaS : l'hébergeur fournit quelque chose qui ressemble à un ordinateur vide (exemple : machines virtuelles)
+   - PaaS : l'hébergeur fournit un système sur lequel vous pouvez installer vos logiciels sans vous préoccuper d'infrastructure
    - DaaS : l'hébergeur fournit des données et de quoi les manipuler sans se préoccuper du stockage ou du logiciel
-** Wikimedia Cloud Services
+** TODO Wikimedia Cloud Services
  - Wikimedia Cloud VPS (IaaS), OpenStack
  - Wikimedia Toolforge (PaaS), Kubernetes
  - Wikimedia PAWS (PaaS / DaaS), Jupyter
  - Wikimedia Quarry (DaaS), SQL
-** Toolhub
-** Deux types d'outils
+** TODO Toolforge [0/4]
+*** TODO Conditions d'utilisation
+ - Pour le bénéfice du mouvement Wikimedia
+ - Right to fork : licence libre pour le code et les données
+*** TODO Deux types d'outils
  - Service web
  - Tout le reste
    - Traitement ponctuel
    - Traitement régulier
    - Traitement continu
-** Restrictions
- - Pour le bénéfice du mouvement Wikimedia
- - Right to fork : licence libre pour le code et les données
-** Concepts
-*** Compte développeur
+*** TODO Concepts [0/3]
+**** TODO Compte développeur
  - WikiTech
  - Toolforge
  - Phabricator, Gerrit & GitLab
-*** Compte outil
+**** TODO Compte outil
  - Un compte par outil
  - Un ou plusieurs mainteneurs (comptes développeur)
-*** Faire un schéma avec des comptes développeurs et des comptes outil
+**** TODO Faire un schéma avec des comptes développeurs et des comptes outil
  - Arkanosis (artlist, socksfinder)
  - Assassas77 (abricot)
  - Nattes à chat
  - capitainAfrika
  - MathisB (mathis-bot)
-** Comment
-*** Créer un compte développeur
- - Créer le compte
- - Le faire ajouter à toolforge (nécessite une validation ⇒ Lucas via Matrix / IRC)
-*** Créer et associer une clef SSH
+*** TODO Comment [0/4]
+**** TODO Créer un compte développeur
+ - Créer le compte : https://toolsadmin.wikimedia.org/register/
+ - Demander un accès à Toolforge : https://toolsadmin.wikimedia.org/tools/membership/apply (nécessite une validation ⇒ Lucas via Matrix / IRC)
+**** TODO Créer et associer une clef SSH
  - Sous Linux
  - Sous Windows
  - Associer la clef
-*** Créer un compte outil
+**** TODO Créer un compte outil
  - Créer le compte
  - Ajouter des fichiers
  - Lancer un service web
  - Lancer un job
-*** Diffuser son outil
+**** TODO Publicité (diffuser son outil)
  - Ajouter des infos sur https://toolsadmin.wikimedia.org/
  - Compléter l'entrée créée automatiquement sur Toolhub
+** DONE Transition
+ - Laisser la parole à Mounir pour la petite Wiki en darija marocaine
+* TODO Préparation
+** TODO Uploader sur arkanosis.fr
+** TODO Tester sur marvin, avec le pointeur laser et la sortie HDMI
+** TODO Countdown sur marvin
+** TODO Scénario complet sur marvin
+** TODO Matrix / IRC sur marvin pour contacter Lucas
