@@ -17,6 +17,17 @@ Cet atelier vise à accompagner les participants dans leurs premiers pas sur Too
  - Vous ne comprenez pas la moitié des mots de cette description et vous souhaitez que ça change ?
 
 Cet atelier est pour vous !
+* [[~/Programmation/Wikimedia/WikiConvFR16/Devenez développeur (en 4h montre en main)/Notes.md][Notes de 2016]]
+* Demande admin (via IRC)
+ - Hello everyone :) I'm Jérémie Roquet on Wikitech and Arkanosis on Wikimedia projects and Phabricator. Next Saturday (November 19th), I'll be facilitating a short workshop on Toolforge as part of the French WikiConvention (see: https://meta.wikimedia.org/wiki/WikiConvention_francophone/2022/Programme/Premiers_pas_avec_Toolforge,_la_plateforme_d%27h%C3%A9bergement_d%27outils_de_Wikim%C3%A9dia ). Would a Toolforge admin be available around 11:00 - 11:30 CET (that's 10:00 - 10:30 UTC) in case some people would like to request access to the Toolforge project during the workshop? I can be on IRC / Matrix or whatever makes it the least cumbersome for you if you want the check that the nicknames in the requests match the people in the workshop. Last time I did that (back in 2016), less than 10 people actually created an account. That will be in the middle of the night in the US and I can show most things with my own account if needed, so definitely don't wake up specially for that :) Thanks!
+ - <lucaswerkmeister> I’ll probably be around at that time, if you write “@lucaswerkmeister” on the IRC side it should ping me over on Telegram if I’m not mistaken
+ - Thank you so much @lucaswerkmeister ! I'll ping you if there are some requests (I guess that message is a test ping)
+ - <lucaswerkmeister> the test ping worked :)
+ - Awesome! Thanks again and have a nice day :)
+* Liens utiles
+ - Créer un compte Wikitech : https://toolsadmin.wikimedia.org/register/
+ - Demander un accès à Toolforge : https://toolsadmin.wikimedia.org/tools/membership/apply
+ - Associer une clef SSH à son compte : https://toolsadmin.wikimedia.org/profile/settings/ssh-keys
 * TODO Plan
 ** Contexte
  - Vous avez écrit un bot (ou vous utilisez un bot comme pywikibot) qui fait des modifications à votre place sur les wikis
@@ -39,9 +50,12 @@ Cet atelier est pour vous !
    - IaaS : l'hébergeur fournit quelque chose qui ressemble à un ordinateur vide
    - PaaS : l'hébergeur fournit un système sur lequel vous pouvez installer vos logiciels sans vous préoccuper d'infrastructure
    - SaaS : l'hébergeur fournit un logiciel prêt à l'usage (exemple : Gmail, Facebook, Google Drive, Netflix, Spotify… mais aussi Wikipédia, Wiktionnaire, Phabricator…)
+   - DaaS : l'hébergeur fournit des données et de quoi les manipuler sans se préoccuper du stockage ou du logiciel
 ** Wikimedia Cloud Services
- - Wikimedia Cloud VPS (IaaS)
- - Wikimedia Toolforge (PaaS)
+ - Wikimedia Cloud VPS (IaaS), OpenStack
+ - Wikimedia Toolforge (PaaS), Kubernetes
+ - Wikimedia PAWS (PaaS / DaaS), Jupyter
+ - Wikimedia Quarry (DaaS), SQL
 ** Toolhub
 ** Deux types d'outils
  - Service web
@@ -69,7 +83,11 @@ Cet atelier est pour vous !
 ** Comment
 *** Créer un compte développeur
  - Créer le compte
- - Le faire ajouter à toolforge (nécessite une validation ⇒ IRC ?)
+ - Le faire ajouter à toolforge (nécessite une validation ⇒ Lucas via Matrix / IRC)
+*** Créer et associer une clef SSH
+ - Sous Linux
+ - Sous Windows
+ - Associer la clef
 *** Créer un compte outil
  - Créer le compte
  - Ajouter des fichiers
