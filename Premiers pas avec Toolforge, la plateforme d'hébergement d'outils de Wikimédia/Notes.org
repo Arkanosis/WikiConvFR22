@@ -122,9 +122,9 @@ Cet atelier est pour vous !
  - Compléter l'entrée créée automatiquement sur Toolhub
 ** DONE Transition
  - Laisser la parole à Mounir pour la petite Wiki en darija marocaine
-* TODO Préparation [5/8]
+* TODO Préparation [4/5]
 ** DONE Countdown sur marvin
 ** DONE Matrix / IRC sur marvin pour contacter Lucas
-** TODO Tester sur marvin, avec le pointeur laser et la sortie HDMI
-** TODO Scénario complet sur marvin
+** DONE Tester sur marvin, avec le pointeur laser et la sortie HDMI
+** DONE Scénario complet sur marvin
 ** TODO Uploader sur arkanosis.fr
