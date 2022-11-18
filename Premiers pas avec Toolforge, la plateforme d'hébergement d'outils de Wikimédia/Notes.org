@@ -28,7 +28,7 @@ Cet atelier est pour vous !
  - Créer un compte Wikitech : https://toolsadmin.wikimedia.org/register/
  - Demander un accès à Toolforge : https://toolsadmin.wikimedia.org/tools/membership/apply
  - Associer une clef SSH à son compte : https://toolsadmin.wikimedia.org/profile/settings/ssh-keys
-* TODO Plan [6/7]
+* DONE Plan [7/7]
 ** DONE Introduction
  - Pour celles et ceux que je n'ai pas déjà eu la chance de croiser, je suis Arkanosis sur les projets Wikimédia et sur internet en général
  - Pour les autres, ça fait plaisir de vous retrouver trois ans après la dernière WikiConvention en présentiel
@@ -72,7 +72,7 @@ Cet atelier est pour vous !
  - Wikimedia Toolforge (PaaS), Kubernetes
  - Wikimedia PAWS (PaaS / DaaS), Jupyter
  - Wikimedia Quarry (DaaS), SQL
-** TODO Toolforge [3/4]
+** DONE Toolforge [4/4]
 *** DONE Conditions d'utilisation
  - Pour le bénéfice du mouvement Wikimedia
  - Right to fork : licence libre pour le code et les données
@@ -100,21 +100,21 @@ Cet atelier est pour vous !
  - Arkanosis : artlist, Mathis B : mathis-bot, Assassas77 : abricot
  - Nattes à chat : artlist
  - Mathis B : Arkbot
-*** TODO Comment [0/4]
-**** TODO Créer un compte développeur
+*** DONE Comment [4/4]
+**** DONE Créer un compte développeur
  - Créer le compte : https://toolsadmin.wikimedia.org/register/
  - Demander un accès à Toolforge : https://toolsadmin.wikimedia.org/tools/membership/apply (nécessite une validation ⇒ Lucas via Matrix / IRC)
  - Liste des demandes : https://toolsadmin.wikimedia.org/tools/membership/
-**** TODO Créer et associer une clef SSH
+**** DONE Créer et associer une clef SSH
  - Sous Linux
  - Sous Windows
  - Associer la clef
-**** TODO Créer un compte outil
+**** DONE Créer un compte outil
  - Créer le compte
  - Ajouter des fichiers
  - Lancer un service web
  - Lancer un job
-**** TODO Publicité (diffuser son outil)
+**** DONE Publicité (diffuser son outil)
  - Ajouter des infos sur https://toolsadmin.wikimedia.org/
  - Compléter l'entrée créée automatiquement sur Toolhub
 ** DONE Transition
