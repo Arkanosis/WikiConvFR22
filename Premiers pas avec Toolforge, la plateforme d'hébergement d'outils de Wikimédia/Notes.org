@@ -28,7 +28,7 @@ Cet atelier est pour vous !
  - Créer un compte Wikitech : https://toolsadmin.wikimedia.org/register/
  - Demander un accès à Toolforge : https://toolsadmin.wikimedia.org/tools/membership/apply
  - Associer une clef SSH à son compte : https://toolsadmin.wikimedia.org/profile/settings/ssh-keys
-* TODO Plan [4/7]
+* TODO Plan [6/7]
 ** DONE Introduction
  - Pour celles et ceux que je n'ai pas déjà eu la chance de croiser, je suis Arkanosis sur les projets Wikimédia et sur internet en général
  - Pour les autres, ça fait plaisir de vous retrouver trois ans après la dernière WikiConvention en présentiel
@@ -37,25 +37,26 @@ Cet atelier est pour vous !
  - Vous avez un bot (fait maison, pywikibot…) qui fait des modifications à votre place sur les wikis
  - Vous souhaitez partager un site web avec la communauté (statique, en HTML ; ou dynamique, en Python, PHP…)
  - Vous voulez juste savoir de quoi on parle
+ - Pour les deux premiers profil, [[https://toolsadmin.wikimedia.org/register/][créer un compte]] tout de suite et [[https://arkanosis.net/cinny/][demander]] à @lucaswerkmeister d'approuver [[https://toolsadmin.wikimedia.org/tools/membership/][les demandes]]
 ** DONE Toolhub
  - Annuaire pas restreint à Toolforge
  - XTools
  - locator-tool
  - Listeria bot
  - IABot Internet Archive
-** TODO Notions [0/4]
-*** TODO Internet
+** DONE Notions [4/4]
+*** DONE Internet
  - Ordinateurs interconnectés via un réseau.
  - Inter-network
-*** TODO Serveur
+*** DONE Serveur
  - Ordinateur qui fournit un service.
  - Exemple : serveur qui sert Wikipédia.
  - Par opposition à client
-*** TODO Hébergeur
+*** DONE Hébergeur
  - Personne, entreprise ou organisation chez qui est un serveur (en général le propriétaire).
  - Exemple : la Wikimedia Foundation qui héberge Wikipédia.
  - On peut acheter ou louer un serveur chez un hébergeur.
-*** TODO Cloud
+*** DONE Cloud
  - Le cloud, c'est l'ordinateur de quelqu'un d'autre.
  - Le cloud, c'est (très souvent) l'ordinateur de quelqu'un d'autre.
  - Le cloud, c'est (très souvent) (avant tout) l'ordinateur de quelqu'un d'autre.
@@ -66,7 +67,7 @@ Cet atelier est pour vous !
    - IaaS : l'hébergeur fournit quelque chose qui ressemble à un ordinateur vide (exemple : machines virtuelles)
    - PaaS : l'hébergeur fournit un système sur lequel vous pouvez installer vos logiciels sans vous préoccuper d'infrastructure
    - DaaS : l'hébergeur fournit des données et de quoi les manipuler sans se préoccuper du stockage ou du logiciel
-** TODO Wikimedia Cloud Services
+** DONE Wikimedia Cloud Services
  - Wikimedia Cloud VPS (IaaS), OpenStack
  - Wikimedia Toolforge (PaaS), Kubernetes
  - Wikimedia PAWS (PaaS / DaaS), Jupyter
@@ -91,7 +92,7 @@ Cet atelier est pour vous !
  - Un ou plusieurs mainteneurs (comptes développeur)
 **** TODO Faire un schéma avec des comptes développeurs et des comptes outil
  - Arkanosis (artlist, socksfinder)
- - Assassas77 (abricot)
+ - Antoine / Assassas77 (abricot)
  - Nattes à chat
  - capitainAfrika
  - MathisB (mathis-bot)
@@ -99,6 +100,7 @@ Cet atelier est pour vous !
 **** TODO Créer un compte développeur
  - Créer le compte : https://toolsadmin.wikimedia.org/register/
  - Demander un accès à Toolforge : https://toolsadmin.wikimedia.org/tools/membership/apply (nécessite une validation ⇒ Lucas via Matrix / IRC)
+ - Liste des demandes : https://toolsadmin.wikimedia.org/tools/membership/
 **** TODO Créer et associer une clef SSH
  - Sous Linux
  - Sous Windows
