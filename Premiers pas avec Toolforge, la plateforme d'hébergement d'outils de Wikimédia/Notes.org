@@ -72,30 +72,34 @@ Cet atelier est pour vous !
  - Wikimedia Toolforge (PaaS), Kubernetes
  - Wikimedia PAWS (PaaS / DaaS), Jupyter
  - Wikimedia Quarry (DaaS), SQL
-** TODO Toolforge [0/4]
-*** TODO Conditions d'utilisation
+** TODO Toolforge [3/4]
+*** DONE Conditions d'utilisation
  - Pour le bénéfice du mouvement Wikimedia
  - Right to fork : licence libre pour le code et les données
-*** TODO Deux types d'outils
+*** DONE Deux types d'outils
  - Service web
  - Tout le reste
    - Traitement ponctuel
    - Traitement régulier
    - Traitement continu
-*** TODO Concepts [0/3]
-**** TODO Compte développeur
+*** DONE Concepts [3/3]
+**** DONE Compte développeur
  - WikiTech
  - Toolforge
  - Phabricator, Gerrit & GitLab
-**** TODO Compte outil
+**** DONE Compte outil
  - Un compte par outil
  - Un ou plusieurs mainteneurs (comptes développeur)
-**** TODO Faire un schéma avec des comptes développeurs et des comptes outil
+**** DONE Faire un schéma avec des comptes développeurs et des comptes outil
  - Arkanosis (artlist, socksfinder)
  - Antoine / Assassas77 (abricot)
  - Nattes à chat
  - capitainAfrika
  - MathisB (mathis-bot)
+***** Scénario
+ - Arkanosis : artlist, Mathis B : mathis-bot, Assassas77 : abricot
+ - Nattes à chat : artlist
+ - Mathis B : Arkbot
 *** TODO Comment [0/4]
 **** TODO Créer un compte développeur
  - Créer le compte : https://toolsadmin.wikimedia.org/register/

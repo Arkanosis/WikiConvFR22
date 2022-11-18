@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="196.92502mm"
+   height="167.43878mm"
+   viewBox="0 0 196.92502 167.43878"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="comptes_0.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.89085297"
+     inkscape:cx="364.25764"
+     inkscape:cy="559.57607"
+     inkscape:window-width="3438"
+     inkscape:window-height="1414"
+     inkscape:window-x="0"
+     inkscape:window-y="1104"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(16.524222,-61.282396)">
+    <g
+       id="g3802"
+       transform="translate(-10.7819,8.0181666)">
+      <ellipse
+         style="opacity:0.28079;fill:#72f990;fill-opacity:1;stroke:#000000;stroke-width:1.165;stroke-dasharray:none"
+         id="path788"
+         cx="56.760132"
+         cy="73.443871"
+         rx="25.959896"
+         ry="19.597141" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="35.995621"
+         y="76.618874"
+         id="text3578"><tspan
+           sodipodi:role="line"
+           id="tspan3576"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="35.995621"
+           y="76.618874">Arkanosis</tspan></text>
+    </g>
+    <g
+       id="g3807"
+       transform="translate(169.0054,40.142531)">
+      <ellipse
+         style="opacity:0.28079;fill:#72f990;fill-opacity:1;stroke:#000000;stroke-width:1.165;stroke-dasharray:none"
+         id="path788-3"
+         cx="-15.147"
+         cy="168.399"
+         rx="25.959896"
+         ry="19.597141" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-38.404942"
+         y="171.39197"
+         id="text3578-6"><tspan
+           sodipodi:role="line"
+           id="tspan3576-1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="-38.404942"
+           y="171.39197">Assassas77</tspan></text>
+    </g>
+    <g
+       id="g3812"
+       transform="translate(-55.275716,99.245535)">
+      <ellipse
+         style="opacity:0.28079;fill:#72f990;fill-opacity:1;stroke:#000000;stroke-width:1.165;stroke-dasharray:none"
+         id="path788-7"
+         cx="137.214"
+         cy="109.296"
+         rx="25.959896"
+         ry="19.597141" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="118.54922"
+         y="112.471"
+         id="text3578-2"><tspan
+           sodipodi:role="line"
+           id="tspan3576-9"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="118.54922"
+           y="112.471">Mathis B</tspan></text>
+    </g>
+  </g>
+</svg>
