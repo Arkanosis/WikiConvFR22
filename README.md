@@ -9,7 +9,7 @@ Ce dépôt contient mon poster et les slides de mon intervention lors de la Wiki
 
 ## Checklist
 - Vérifier le wifi
-- Se connecter avec le bon compte
+- Se connecter avec le bon compte (Wikitech)
 - Brancher l'écran
 - xrandr
 - Brancher la souris
@@ -28,6 +28,7 @@ Ce dépôt contient mon poster et les slides de mon intervention lors de la Wiki
 
 ## Logiciel
 * weechat (#wikitech)
+* Cinny (#wikimedia-cloud)
 
 ## Données
 * Notes
@@ -35,7 +36,7 @@ Ce dépôt contient mon poster et les slides de mon intervention lors de la Wiki
 * Notes sous forme de page Wiki avec des liens
 * Slides en HTML? ⇒ liens + images
 * Slide de présentation au début : User:Arkanosis, frwiki, wikidata
-* Slide de contact à la fin : User:Arkanosis, Discussion_utilisateur, jroquet@arkanosis.net, PGP (keybase), Mastodon, Twitter
+* Slide de contact à la fin : User:Arkanosis, Discussion_utilisateur, jroquet@arkanosis.net, Matrix, ActivityPub
 
 ## Tests
 * Grossissement navigateur web et terminal
